@@ -44,14 +44,15 @@ body {
 }
 
 .video-container {
-  max-width: 800px; /* Defina a largura máxima do vídeo conforme necessário */
-  text-align: center;
-  margin-bottom: 100px; /* Adicione margem na parte inferior da seção */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Isso garante que o vídeo ocupe toda a altura da viewport */
 }
 
 video {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* Garante que o vídeo não ultrapasse o tamanho do contêiner */
+  max-height: 100%; /* Garante que o vídeo não ultrapasse o tamanho do contêiner */
 }
 
 .head {
