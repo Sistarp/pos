@@ -4,7 +4,7 @@ const professionalsData = [
     nome: "Patricia Cabello",
     cidade: "São Caetano do Sul / SP",
     especialidades: ["Especialidade 1", "Especialidade 2", "Especialidade 3"],
-    foto: "profissional1.jpg",
+    foto: "patcabello.jpg",
     instagram: "https://www.instagram.com/patcabellorganizer/",
     whatsapp: "+55 (11) 94866-4000"
   },
@@ -23,7 +23,7 @@ const professionalsData = [
       "Palestras e Workshops",
       "Atendimento presencial em São Paulo e Região"
     ],
-    foto: "profissional2.jpg",
+    foto: "jumonaco.jpg",
     instagram: "https://www.instagram.com/jumonaco.organizer/",
     whatsapp: "+55 (11) 97350-2062"
   },
@@ -31,7 +31,7 @@ const professionalsData = [
     nome: "Andrea Campoi",
     cidade: "Santo André / SP",
     especialidades: ["Especialidade 1", "Especialidade 2", "Especialidade 3"],
-    foto: "profissional1.jpg",
+    foto: "campoi.jpg",
     instagram: "https://www.instagram.com/andreacampoiorganizer/",
     whatsapp: "+55 (11) 95450-0076"
   },
@@ -50,7 +50,7 @@ const professionalsData = [
       "Palestras e Workshops",
       "Atendimento presencial em São Paulo e Região"
     ],
-    foto: "profissional2.jpg",
+    foto: "debdemarchi.jpg",
     instagram: "https://www.instagram.com/debdemarchi/",
     whatsapp: "+55 (11) 97123-9689"
   },
@@ -58,7 +58,7 @@ const professionalsData = [
     nome: "Cristina Martins",
     cidade: "São Caetano do Sul / SP",
     especialidades: ["Especialidade 1", "Especialidade 2", "Especialidade 3"],
-    foto: "profissional1.jpg",
+    foto: "crismartins.jpg",
     instagram: "https://www.instagram.com/crismartins.organizer/",
     whatsapp: "+55 (11) 98121-8563"
   },
@@ -77,9 +77,49 @@ const professionalsData = [
       "Palestras e Workshops",
       "Atendimento presencial em São Paulo e Região"
     ],
-    foto: "profissional2.jpg",
+    foto: "febertacini.jpg",
     instagram: "https://www.instagram.com/bemnolugar/",
     whatsapp: "+55 (11) 98536-7257"
+  }
+  
+  {
+    nome: "Marillac David",
+    cidade: "São Paulo / SP",
+    especialidades: [
+      "Organização Residencial",
+      "Mudança Organizada",
+      "Coordenação da Casa (Concierge)",
+      "Consultoria de Organização e de Mudança",
+      "Organização de Mala de Viagem",
+      "Consultoria de Compra de Produtos Organizadores",
+      "Treinamento de Limpeza Moderna",
+      "Elaboração de Rotinas Domésticas",
+      "Palestras e Workshops",
+      "Atendimento presencial em São Paulo e Região"
+    ],
+    foto: "marillac.jpg",
+    instagram: "https://www.instagram.com/marillacorganize/",
+    whatsapp: "+55 (11) 98576-0032"
+  }
+  
+  {
+    nome: "Claudia Quissack",
+    cidade: "Santo André / SP",
+    especialidades: [
+      "Organização Residencial",
+      "Mudança Organizada",
+      "Coordenação da Casa (Concierge)",
+      "Consultoria de Organização e de Mudança",
+      "Organização de Mala de Viagem",
+      "Consultoria de Compra de Produtos Organizadores",
+      "Treinamento de Limpeza Moderna",
+      "Elaboração de Rotinas Domésticas",
+      "Palestras e Workshops",
+      "Atendimento presencial em São Paulo e Região"
+    ],
+    foto: "quissack.jpg",
+    instagram: "https://www.instagram.com/claudia.quissack/",
+    whatsapp: "+55 (11) 97090-1565"
   }
   // Adicione mais profissionais aqui
 ];
@@ -93,7 +133,7 @@ function displayProfessionals() {
     professionalCard.classList.add("professional-card");
 
     const img = document.createElement("img");
-    img.src = professional.foto;
+    img.src = `media/${professional.foto}`;
     img.alt = professional.nome;
 
     const name = document.createElement("h2");
