@@ -80,8 +80,7 @@ const professionalsData = [
     foto: "febertacini.jpg",
     instagram: "https://www.instagram.com/bemnolugar/",
     whatsapp: "+55 (11) 98536-7257"
-  }
-  
+  },
   {
     nome: "Marillac David",
     cidade: "São Paulo / SP",
@@ -100,8 +99,7 @@ const professionalsData = [
     foto: "marillac.jpg",
     instagram: "https://www.instagram.com/marillacorganize/",
     whatsapp: "+55 (11) 98576-0032"
-  }
-  
+  },
   {
     nome: "Claudia Quissack",
     cidade: "Santo André / SP",
