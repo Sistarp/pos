@@ -47,7 +47,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Isso garante que o vídeo ocupe toda a altura da viewport */
+  margin-bottom: 80px;
 }
 
 video {
