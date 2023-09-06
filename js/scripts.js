@@ -131,7 +131,7 @@ function displayProfessionals() {
     professionalCard.classList.add("professional-card");
 
     const img = document.createElement("img");
-    img.src = `${professional.foto}`;
+    img.src = `media/${professional.foto}`;
     img.alt = professional.nome;
 
     const name = document.createElement("h2");
