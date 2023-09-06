@@ -4,7 +4,7 @@ const professionalsData = [
     nome: "Patricia Cabello",
     cidade: "São Caetano do Sul / SP",
     especialidades: ["Especialidade 1", "Especialidade 2", "Especialidade 3"],
-    foto: "patcabello",
+    foto: "patcabello.jpg",
     instagram: "https://www.instagram.com/patcabellorganizer/",
     whatsapp: "+55 (11) 94866-4000"
   },
@@ -23,7 +23,7 @@ const professionalsData = [
       "Palestras e Workshops",
       "Atendimento presencial em São Paulo e Região"
     ],
-    foto: "jumonaco",
+    foto: "jumonaco.jpeg",
     instagram: "https://www.instagram.com/jumonaco.organizer/",
     whatsapp: "+55 (11) 97350-2062"
   },
@@ -31,7 +31,7 @@ const professionalsData = [
     nome: "Andrea Campoi",
     cidade: "Santo André / SP",
     especialidades: ["Especialidade 1", "Especialidade 2", "Especialidade 3"],
-    foto: "campoi",
+    foto: "campoi.jpeg",
     instagram: "https://www.instagram.com/andreacampoiorganizer/",
     whatsapp: "+55 (11) 95450-0076"
   },
@@ -50,7 +50,7 @@ const professionalsData = [
       "Palestras e Workshops",
       "Atendimento presencial em São Paulo e Região"
     ],
-    foto: "debdemarchi",
+    foto: "debdemarchi.jpeg",
     instagram: "https://www.instagram.com/debdemarchi/",
     whatsapp: "+55 (11) 97123-9689"
   },
@@ -58,7 +58,7 @@ const professionalsData = [
     nome: "Cristina Martins",
     cidade: "São Caetano do Sul / SP",
     especialidades: ["Especialidade 1", "Especialidade 2", "Especialidade 3"],
-    foto: "crismartins",
+    foto: "crismartins.jpg",
     instagram: "https://www.instagram.com/crismartins.organizer/",
     whatsapp: "+55 (11) 98121-8563"
   },
@@ -77,7 +77,7 @@ const professionalsData = [
       "Palestras e Workshops",
       "Atendimento presencial em São Paulo e Região"
     ],
-    foto: "febertacini",
+    foto: "febertacini.jpg",
     instagram: "https://www.instagram.com/bemnolugar/",
     whatsapp: "+55 (11) 98536-7257"
   },
@@ -96,7 +96,7 @@ const professionalsData = [
       "Palestras e Workshops",
       "Atendimento presencial em São Paulo e Região"
     ],
-    foto: "marillac",
+    foto: "marillac.jpeg",
     instagram: "https://www.instagram.com/marillacorganize/",
     whatsapp: "+55 (11) 98576-0032"
   },
@@ -115,7 +115,7 @@ const professionalsData = [
       "Palestras e Workshops",
       "Atendimento presencial em São Paulo e Região"
     ],
-    foto: "quissack",
+    foto: "quissack.jpg",
     instagram: "https://www.instagram.com/claudia.quissack/",
     whatsapp: "+55 (11) 97090-1565"
   }
@@ -131,7 +131,7 @@ function displayProfessionals() {
     professionalCard.classList.add("professional-card");
 
     const img = document.createElement("img");
-    img.src = `${professional.foto}`;
+    img.src = `media/${professional.foto}`;
     img.alt = professional.nome;
 
     const name = document.createElement("h2");
