@@ -115,6 +115,8 @@ video {
 .text {
   text-align: center;
   font-size: 18px;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-bottom: 100px; /* Adicione margem na parte inferior da seção */
 }
 
