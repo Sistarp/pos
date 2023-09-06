@@ -4,7 +4,7 @@ const professionalsData = [
     nome: "Patricia Cabello",
     cidade: "São Caetano do Sul / SP",
     especialidades: ["Especialidade 1", "Especialidade 2", "Especialidade 3"],
-    foto: "patcabello",
+    foto: "media/patcabello",
     instagram: "https://www.instagram.com/patcabellorganizer/",
     whatsapp: "+55 (11) 94866-4000"
   },
