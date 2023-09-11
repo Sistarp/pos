@@ -2,10 +2,19 @@ const professionalsData = [
   {
     nome: "Patricia Cabello",
     cidade: "São Caetano do Sul / SP",
-    especialidades: ["Especialidade 1", "Especialidade 2", "Especialidade 3"],
+    especialidades: [      "Organização Residencial",
+      "Mudança Organizada",
+      "Coordenação da Casa (Concierge)",
+      "Consultoria de Organização e de Mudança",
+      "Organização de Mala de Viagem",
+      "Consultoria de Compra de Produtos Organizadores",
+      "Treinamento de Funcionárias",
+      "Elaboração de Rotinas Domésticas",
+      "Palestras e Workshops",
+      "Atendimento presencial em São Paulo e Região"],
     foto: "patcabello.jpg",
     instagram: "https://www.instagram.com/patcabellorganizer/",
-    whatsapp: "+55 (11) 94866-4000"
+    whatsapp: "11948664000"
   },
   {
     nome: "Juçara Monaco",
@@ -24,7 +33,7 @@ const professionalsData = [
     ],
     foto: "jumonaco.jpeg",
     instagram: "https://www.instagram.com/jumonaco.organizer/",
-    whatsapp: "+55 (11) 97350-2062"
+    whatsapp: "11973502062"
   },
   {
     nome: "Andrea Campoi",
@@ -37,7 +46,7 @@ const professionalsData = [
     ],
     foto: "campoi.jpeg",
     instagram: "https://www.instagram.com/andreacampoiorganizer/",
-    whatsapp: "+55 (11) 95450-0076"
+    whatsapp: "11954500076"
   },
   {
     nome: "Débora Demarchi",
@@ -56,7 +65,7 @@ const professionalsData = [
     ],
     foto: "debdemarchi.jpeg",
     instagram: "https://www.instagram.com/debdemarchi/",
-    whatsapp: "+55 (11) 97123-9689"
+    whatsapp: "11971239689"
   },
   {
     nome: "Cristina Martins",
@@ -64,7 +73,7 @@ const professionalsData = [
     especialidades: ["Especialidade 1", "Especialidade 2", "Especialidade 3"],
     foto: "crismartins.jpg",
     instagram: "https://www.instagram.com/crismartins.organizer/",
-    whatsapp: "+55 (11) 98121-8563"
+    whatsapp: "11981218563"
   },
   {
     nome: "Fernanda Bertacini",
@@ -83,7 +92,7 @@ const professionalsData = [
     ],
     foto: "febertacini.jpg",
     instagram: "https://www.instagram.com/bemnolugar/",
-    whatsapp: "+55 (11) 98536-7257"
+    whatsapp: "11985367257"
   },
   {
     nome: "Marillac David",
@@ -102,20 +111,17 @@ const professionalsData = [
     ],
     foto: "marillac.jpeg",
     instagram: "https://www.instagram.com/marillacorganize/",
-    whatsapp: "+55 (11) 98576-0032"
+    whatsapp: "11985760032"
   },
   {
     nome: "Claudia Quissack",
     cidade: "Santo André / SP",
-    especialidades: [
-      "Organização Residencial",
-      "Mudança Organizada",
-    ],
+    especialidades: ["Organização Residencial", "Mudança Organizada"],
     foto: "quissack.jpg",
     instagram: "https://www.instagram.com/claudia.quissack/",
-    whatsapp: "+55 (11) 97090-1565"
+    whatsapp: "11970901565"
   },
-    {
+  {
     nome: "Valéria Cristina de Freitas",
     cidade: "Santo André / SP",
     especialidades: [
@@ -132,9 +138,9 @@ const professionalsData = [
     ],
     foto: "valeriafreitas.jpg",
     instagram: "https://www.instagram.com/espaco_pratico/",
-    whatsapp: "+55 (11) 97090-1565"
+    whatsapp: "11941259343"
   },
-    {
+  {
     nome: "Rosangela Kubota",
     cidade: "São Caetano do Sul / SP",
     especialidades: [
@@ -151,10 +157,63 @@ const professionalsData = [
     ],
     foto: "rokubota.jpg",
     instagram: "https://www.instagram.com/ro_organiza_/",
-    whatsapp: "+55 (11) 97090-1565"
-  }
+    whatsapp: "11984050186"
+  },
+    {
+    nome: "Luciana Teixeira",
+    cidade: "Santo André / SP",
+    especialidades: [
+      "Organização Residencial",
+      "Mudança Organizada",
+      "Coordenação da Casa (Concierge)",
+      "Consultoria de Organização e de Mudança",
+      "Organização de Mala de Viagem",
+      "Consultoria de Compra de Produtos Organizadores",
+      "Treinamento de Limpeza Moderna",
+      "Elaboração de Rotinas Domésticas",
+      "Palestras e Workshops",
+      "Atendimento presencial em São Paulo e Região"
+    ],
+    foto: "luteixeira.jpg",
+    instagram: "https://www.instagram.com/luteixeira.organizer/",
+    whatsapp: "11953318246"
   // Adicione mais profissionais aqui
 ];
+
+
+
+const searchForm = document.getElementById("search-form");
+const searchInput = document.getElementById("search-input");
+const searchButton = document.getElementById("search-button");
+const professionalsList = document.getElementById("professionals-list");
+
+function filterProfessionalsByName() {
+  const searchTerm = searchInput.value.toLowerCase();
+
+  const professionalCards = professionalsList.getElementsByClassName(
+    "professional-card"
+  );
+  for (const professionalCard of professionalCards) {
+    const nameElement = professionalCard.querySelector("h2");
+    const name = nameElement.textContent.toLowerCase();
+
+    // Verifica se o nome do profissional contém o termo de pesquisa
+    if (name.includes(searchTerm)) {
+      professionalCard.style.display = "block"; // Exibe o profissional
+    } else {
+      professionalCard.style.display = "none"; // Oculta o profissional
+    }
+  }
+}
+
+// Adiciona um ouvinte de evento de clique ao botão de busca
+searchButton.addEventListener("click", filterProfessionalsByName);
+
+// Adiciona um ouvinte de evento de envio de formulário para evitar o envio da página
+searchForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+  filterProfessionalsByName();
+});
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {

@@ -4,12 +4,14 @@
   <title>Personal Organizers Parceiras</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 <body>
   <header>
     <div class="head">
       <div class="titulo-imagem">
-        <img scr=" " alt=" ">
+        <img scr="media/logo.png" alt="logo">
       </div>
       <div class="titulo">
         <h1>Bem vindo(a) ao nosso catálogo de POs!</h1><br>
@@ -42,6 +44,14 @@
 
   <section id="pos">
     <h1 class="subtitulo">Personal Organizers Parceiras</h1>
+    
+  <div class="container-po">
+     <div class="search">
+      <form class="example" id="search-form">
+  <input type="text" placeholder="Digite o nome da PO..." name="search" id="search-input">
+  <button type="button" id="search-button"><i class="fa fa-search"></i></button>
+      </form>
+     </div>
     <div class="filtro">
       <label for="city-filter">Filtrar por cidade:</label>
 <select id="city-filter">
@@ -54,6 +64,8 @@
   <option value="São Paulo / SP">São Paulo</option> 
   </select>
     </div>
+
+  </div>
     
     <div class="container" id="professionals-list"></div>
   </section>
@@ -69,7 +81,7 @@
 
   <footer>
     Feito por <a href="mailto:pedidos@sistarp.com.br">Sistarp</a>.<br>
-    Site: <a href="www.sistarp.com.br">www.sistarp.com.br</a><br>
+    Site: <a href="https://www.sistarp.com.br">www.sistarp.com.br</a><br>
     Rua Senador Fláquer, 720 - Centro, Santo André - SP
   </footer>
 
