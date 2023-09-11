@@ -1,6 +1,31 @@
-/* Estilos CSS para a página */
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+}
+
+.titulo {
+  flex: 1;
+  font-size: 14px;
+  text-align: center;
+}
+
+.titulo-imagem {
+  flex: 1;
+  height: auto;
+  width: 10px;
+}
+
+.time {
+  float: right;
+  text-align: center;
+  padding: 15px;
+  margin-right: 10px;
+  font-size: 20px;
+  flex: 1;
 }
 
 .topnav {
@@ -37,7 +62,6 @@ body {
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #04aa6d;
   color: white;
@@ -51,14 +75,22 @@ body {
 }
 
 video {
-  max-width: 100%; /* Garante que o vídeo não ultrapasse o tamanho do contêiner */
-  max-height: 100%; /* Garante que o vídeo não ultrapasse o tamanho do contêiner */
+  max-width: 800px; /* Garante que o vídeo não ultrapasse o tamanho do contêiner */
+  max-height: 800px; /* Garante que o vídeo não ultrapasse o tamanho do contêiner */
   width: 100%;
   height: auto;
 }
 
-.head {
+.subtitulo {
+  background: #f2f2f2;
   text-align: center;
+  font-size: 39px;
+}
+
+.filtro {
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -77,11 +109,32 @@ video {
   width: 300px;
   display: inline-block;
   vertical-align: top;
+  text-align: center;
 }
 
 .professional-card img {
   max-width: 100%;
   height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.arrow-button {
+  border-radius: 5px;
+  background: #f3b6b6;
+  padding: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.arrow-button:hover {
+  background: linear-gradient(45deg, #f3b6b6, #c38888);
+  box-shadow: 1px 1px 5px black;
 }
 
 .social-button {
@@ -98,33 +151,34 @@ video {
 }
 
 .social-button.instagram {
-  background-color: #e4405f;
+  background: linear-gradient(45deg, #833ab4, #e1306c);
 }
 
 .social-button.instagram:hover {
-  background-color: #e4405f;
+  background: linear-gradient(45deg, #e1306c, #833ab4);
   box-shadow: 1px 1px 5px black;
 }
 
 .social-button.whatsapp {
-  background-color: #25d366;
+  background: linear-gradient(45deg, #128c7e, #25d366);
 }
 
 .social-button.whatsapp:hover {
-  background-color: #25d366;
+  background: linear-gradient(45deg, #25d366, #128c7e);
   box-shadow: 1px 1px 5px black;
 }
 
 .text {
   text-align: center;
-  font-size: 18px;
+  font-size: 21px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 100px; /* Adicione margem na parte inferior da seção */
+  margin-bottom: 100px;
 }
 
 footer {
   display: block;
   font-style: italic;
   text-align: center;
+  background-color: #f2f2f2;
 }
