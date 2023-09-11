@@ -177,6 +177,7 @@ const professionalsData = [
     foto: "luteixeira.jpg",
     instagram: "https://www.instagram.com/luteixeira.organizer/",
     whatsapp: "11953318246"
+  }
   // Adicione mais profissionais aqui
 ];
 
