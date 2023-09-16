@@ -4,13 +4,12 @@ const professionalsData = [
     cidade: "São Caetano do Sul / SP",
     especialidades: [      "Organização Residencial",
       "Mudança Organizada",
-      "Coordenação da Casa (Concierge)",
+      "Workshops e Palestras",
       "Consultoria de Organização e de Mudança",
       "Organização de Mala de Viagem",
-      "Consultoria de Compra de Produtos Organizadores",
       "Treinamento de Funcionárias",
       "Elaboração de Rotinas Domésticas",
-      "Palestras e Workshops",
+      "Coordenação da Casa",
       "Atendimento presencial em São Paulo e Região"],
     foto: "patcabello.jpg",
     instagram: "https://www.instagram.com/patcabellorganizer/",
@@ -52,16 +51,12 @@ const professionalsData = [
     nome: "Débora Demarchi",
     cidade: "Santo André / SP",
     especialidades: [
-      "Organização Residencial",
-      "Mudança Organizada",
-      "Coordenação da Casa (Concierge)",
-      "Consultoria de Organização e de Mudança",
-      "Organização de Mala de Viagem",
-      "Consultoria de Compra de Produtos Organizadores",
-      "Treinamento de Limpeza Moderna",
-      "Elaboração de Rotinas Domésticas",
-      "Palestras e Workshops",
-      "Atendimento presencial em São Paulo e Região"
+      "Especialista em Organização Residencial",
+      "Organização de Mudança",
+      "Marcenaria Inteligente",
+      "Organização de Mala",
+      "Consultorias",
+      "Cursos e Workshops",
     ],
     foto: "debdemarchi.jpeg",
     instagram: "https://www.instagram.com/debdemarchi/",
@@ -70,7 +65,12 @@ const professionalsData = [
   {
     nome: "Cristina Martins",
     cidade: "São Caetano do Sul / SP",
-    especialidades: ["Especialidade 1", "Especialidade 2", "Especialidade 3"],
+    especialidades: ["Organização Residencial",
+    "Organização Empresarial",
+    "Mudança Organizada",
+    "Organização inclusiva (Acumuladores, Autistas, Down, TDAH)",
+    "Organização de Fotos (Impressas e Digitais)",
+    "Organização Pós Luto"],
     foto: "crismartins.jpg",
     instagram: "https://www.instagram.com/crismartins.organizer/",
     whatsapp: "11981218563"
@@ -80,14 +80,6 @@ const professionalsData = [
     cidade: "Santo André / SP",
     especialidades: [
       "Organização Residencial",
-      "Mudança Organizada",
-      "Coordenação da Casa (Concierge)",
-      "Consultoria de Organização e de Mudança",
-      "Organização de Mala de Viagem",
-      "Consultoria de Compra de Produtos Organizadores",
-      "Treinamento de Limpeza Moderna",
-      "Elaboração de Rotinas Domésticas",
-      "Palestras e Workshops",
       "Atendimento presencial em São Paulo e Região"
     ],
     foto: "febertacini.jpg",
@@ -99,15 +91,11 @@ const professionalsData = [
     cidade: "São Paulo / SP",
     especialidades: [
       "Organização Residencial",
-      "Mudança Organizada",
-      "Coordenação da Casa (Concierge)",
-      "Consultoria de Organização e de Mudança",
-      "Organização de Mala de Viagem",
-      "Consultoria de Compra de Produtos Organizadores",
-      "Treinamento de Limpeza Moderna",
-      "Elaboração de Rotinas Domésticas",
-      "Palestras e Workshops",
-      "Atendimento presencial em São Paulo e Região"
+      "Organização Baby",
+      "Pré e Pós Mudança",
+      "Organização de Escritório",
+      "Consultoria Online e Presencial",
+      "Atendimento em São Paulo e sul de Minas"
     ],
     foto: "marillac.jpeg",
     instagram: "https://www.instagram.com/marillacorganize/",
@@ -116,7 +104,13 @@ const professionalsData = [
   {
     nome: "Claudia Quissack",
     cidade: "Santo André / SP",
-    especialidades: ["Organização Residencial", "Mudança Organizada"],
+    especialidades: ["Organização Residencial",
+    "Mudança Organizada",
+    "Pré e Pós Mudança",
+    "Melhor idade",
+    "Baby Room",
+    "Decoração Natalina",
+    "Depósito Residencial"],
     foto: "quissack.jpg",
     instagram: "https://www.instagram.com/claudia.quissack/",
     whatsapp: "11970901565"
@@ -126,14 +120,6 @@ const professionalsData = [
     cidade: "Santo André / SP",
     especialidades: [
       "Organização Residencial",
-      "Mudança Organizada",
-      "Coordenação da Casa (Concierge)",
-      "Consultoria de Organização e de Mudança",
-      "Organização de Mala de Viagem",
-      "Consultoria de Compra de Produtos Organizadores",
-      "Treinamento de Limpeza Moderna",
-      "Elaboração de Rotinas Domésticas",
-      "Palestras e Workshops",
       "Atendimento presencial em São Paulo e Região"
     ],
     foto: "valeriafreitas.jpg",
@@ -145,14 +131,6 @@ const professionalsData = [
     cidade: "São Caetano do Sul / SP",
     especialidades: [
       "Organização Residencial",
-      "Mudança Organizada",
-      "Coordenação da Casa (Concierge)",
-      "Consultoria de Organização e de Mudança",
-      "Organização de Mala de Viagem",
-      "Consultoria de Compra de Produtos Organizadores",
-      "Treinamento de Limpeza Moderna",
-      "Elaboração de Rotinas Domésticas",
-      "Palestras e Workshops",
       "Atendimento presencial em São Paulo e Região"
     ],
     foto: "rokubota.jpg",
@@ -163,21 +141,27 @@ const professionalsData = [
     nome: "Luciana Teixeira",
     cidade: "Santo André / SP",
     especialidades: [
-      "Organização Residencial",
-      "Mudança Organizada",
-      "Coordenação da Casa (Concierge)",
-      "Consultoria de Organização e de Mudança",
-      "Organização de Mala de Viagem",
-      "Consultoria de Compra de Produtos Organizadores",
-      "Treinamento de Limpeza Moderna",
-      "Elaboração de Rotinas Domésticas",
-      "Palestras e Workshops",
+      "Organização Residencial (Closet, Armários, Escritório, Cozinha, Área Gourmet, Lavandeira e demais ambientes)",
+      "Organização de Mudança",
+      "Organização Noivos e Recém Casados (Planejamento de Lista de Enxoval, Mudança dos Noivos e Organização da Casa Nova)",
+      "Consultoria em móveis planejados e compatibilização de acervo",
       "Atendimento presencial em São Paulo e Região"
     ],
-    foto: "luteixeira.jpg",
+    foto: "luteixeira.jpeg",
     instagram: "https://www.instagram.com/luteixeira.organizer/",
     whatsapp: "11953318246"
-  }
+  },
+  {
+  nome: "Eliane Brejão",
+  cidade: "Santo André / SP",
+  especialidades: [
+    "Organização Residencial",
+    "Atendimento presencial no ABC"
+  ],
+  foto: "logo.png",
+  instagram: "https://www.instagram.com/eli.organiza/",
+  whatsapp: "11999430913"
+}
   // Adicione mais profissionais aqui
 ];
 
