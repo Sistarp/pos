@@ -161,6 +161,18 @@ const professionalsData = [
   foto: "logo.png",
   instagram: "https://www.instagram.com/eli.organiza/",
   whatsapp: "11999430913"
+},
+  {
+  nome: "Amanda Flório de Camargo",
+  cidade: "São Paulo / SP",
+  especialidades: [
+    "Organização Residencial",
+    "Pré e Pós Mudança",
+    "Contrato de Manutenção Pós Organização"
+  ],
+  foto: "camargo.jpeg",
+  instagram: "https://www.instagram.com/camargo.organizer/",
+  whatsapp: "11940185548"
 }
   // Adicione mais profissionais aqui
 ];
