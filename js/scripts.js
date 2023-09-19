@@ -149,7 +149,7 @@ const professionalsData = [
     ],
     foto: "luteixeira.jpeg",
     instagram: "https://www.instagram.com/luteixeira.organizer/",
-    whatsapp: "(11)953318246"
+    whatsapp: "11 953318246"
   },
   {
   nome: "Eliane Brejão",
