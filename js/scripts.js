@@ -11,7 +11,7 @@ const professionalsData = [
       "Elaboração de Rotinas Domésticas",
       "Coordenação da Casa",
       "Atendimento presencial em São Paulo e Região"],
-    foto: "patcabello.jpg",
+    foto: "patcabello.jpeg",
     instagram: "https://www.instagram.com/patcabellorganizer/",
     whatsapp: "11948664000"
   },
@@ -149,7 +149,7 @@ const professionalsData = [
     ],
     foto: "luteixeira.jpeg",
     instagram: "https://www.instagram.com/luteixeira.organizer/",
-    whatsapp: "11953318246"
+    whatsapp: "(11)953318246"
   },
   {
   nome: "Eliane Brejão",
