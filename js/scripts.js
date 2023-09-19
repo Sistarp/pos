@@ -149,7 +149,7 @@ const professionalsData = [
     ],
     foto: "luteixeira.jpeg",
     instagram: "https://www.instagram.com/luteixeira.organizer/",
-    whatsapp: "11 953318246"
+    whatsapp: "11953318246"
   },
   {
   nome: "Eliane Brejão",
@@ -261,7 +261,7 @@ function displayProfessionals() {
     instagramButton.className = "social-button instagram";
 
     const whatsappButton = document.createElement("a");
-    whatsappButton.href = `https://api.whatsapp.com/send?phone=${professional.whatsapp}`;
+    whatsappButton.href = `https://wa.me//55${professional.whatsapp}`;
     whatsappButton.textContent = "WhatsApp";
     whatsappButton.className = "social-button whatsapp";
 
