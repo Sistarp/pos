@@ -173,19 +173,6 @@ const professionalsData = [
   foto: "camargo.jpeg",
   instagram: "https://www.instagram.com/camargo.organizer/",
   whatsapp: "11940185548"
-},
-{
-  nome: "Coloque o nome da PO",
-  cidade: "São Paulo / SP",
-  especialidades: [
-    "Digite a especialidade",
-    "Digite a outra",
-    "Para adicionar mais especialidades",
-    "Digite a virgula e depois as aspas"
-  ],
-  foto: "camargo.jpeg",
-  instagram: "https://www.instagram.com/camargo.organizer/",
-  whatsapp: "11940185548"
 }
 
   // Adicione mais profissionais aqui
