@@ -77,7 +77,7 @@ const professionalsData = [
   },
   {
     nome: "Fernanda Bertacini",
-    cidade: "Santo André / SP",
+    cidade: "São Paulo / SP",
     especialidades: [
       "Organização Residencial",
       "Atendimento presencial em São Paulo e Região"
