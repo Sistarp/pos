@@ -158,7 +158,7 @@ const professionalsData = [
     "Organização Residencial",
     "Atendimento presencial no ABC"
   ],
-  foto: "logo.png",
+  foto: "brejao.jpg",
   instagram: "https://www.instagram.com/eli.organiza/",
   whatsapp: "11999430913"
 },
@@ -173,6 +173,32 @@ const professionalsData = [
   foto: "camargo.jpeg",
   instagram: "https://www.instagram.com/camargo.organizer/",
   whatsapp: "11940185548"
+},
+  {
+  nome: "Camila Milan",
+  cidade: "Santo André / SP",
+  especialidades: [
+    "Organização Residencial",
+    "Organização Baby e Infantil",
+    "Pré e Pós Mudança",
+    "Contrato de Manutenção Pós Organização",
+    "Atendimento presencial nas regiões de São Paulo e Grande ABC"
+  ],
+  foto: "milan.jpg",
+  instagram: "https://www.instagram.com/camilamilanorganizer/",
+  whatsapp: "11954397123"
+},
+  {
+  nome: "Angelica Martins",
+  cidade: "São Paulo / SP",
+  especialidades: [
+    "Organização Residencial",
+    "Designer Online",
+    "Método Hygge",
+  ],
+  foto: "angelica.jpg",
+  instagram: "https://www.instagram.com/angelicam.iorganize/",
+  whatsapp: "11991799139"
 }
 
   // Adicione mais profissionais aqui
