@@ -198,7 +198,7 @@ const professionalsData = [
   ],
   foto: "angelica.jpg",
   instagram: "https://www.instagram.com/angelicam.iorganize/",
-  whatsapp: "11991799139"
+  whatsapp: "13991799139"
 }
 
   // Adicione mais profissionais aqui
