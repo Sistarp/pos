@@ -163,32 +163,6 @@ const professionalsData = [
   whatsapp: "11999430913"
 },
   {
-  nome: "Amanda Flório de Camargo",
-  cidade: "São Paulo / SP",
-  especialidades: [
-    "Organização Residencial",
-    "Pré e Pós Mudança",
-    "Contrato de Manutenção Pós Organização"
-  ],
-  foto: "camargo.jpeg",
-  instagram: "https://www.instagram.com/camargo.organizer/",
-  whatsapp: "11940185548"
-},
-  {
-  nome: "Camila Milan",
-  cidade: "Santo André / SP",
-  especialidades: [
-    "Organização Residencial",
-    "Organização Baby e Infantil",
-    "Pré e Pós Mudança",
-    "Contrato de Manutenção Pós Organização",
-    "Atendimento presencial nas regiões de São Paulo e Grande ABC"
-  ],
-  foto: "milan.jpg",
-  instagram: "https://www.instagram.com/camilamilanorganizer/",
-  whatsapp: "11954397123"
-},
-  {
   nome: "Angelica Martins",
   cidade: "São Paulo / SP",
   especialidades: [
