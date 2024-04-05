@@ -2,7 +2,7 @@ const professionalsData = [
   {
     nome: "Patricia Cabello",
     cidade: "São Caetano do Sul / SP",
-    especialidades: [      "Organização Residencial",
+    especialidades: ["Organização Residencial",
       "Mudança Organizada",
       "Workshops e Palestras",
       "Consultoria de Organização e de Mudança",
@@ -66,11 +66,11 @@ const professionalsData = [
     nome: "Cristina Martins",
     cidade: "São Caetano do Sul / SP",
     especialidades: ["Organização Residencial",
-    "Organização Empresarial",
-    "Mudança Organizada",
-    "Organização inclusiva (Acumuladores, Autistas, Down, TDAH)",
-    "Organização de Fotos (Impressas e Digitais)",
-    "Organização Pós Luto"],
+      "Organização Empresarial",
+      "Mudança Organizada",
+      "Organização inclusiva (Acumuladores, Autistas, Down, TDAH)",
+      "Organização de Fotos (Impressas e Digitais)",
+      "Organização Pós Luto"],
     foto: "crismartins.jpg",
     instagram: "https://www.instagram.com/crismartins.organizer/",
     whatsapp: "11981218563"
@@ -105,12 +105,12 @@ const professionalsData = [
     nome: "Claudia Quissack",
     cidade: "Santo André / SP",
     especialidades: ["Organização Residencial",
-    "Mudança Organizada",
-    "Pré e Pós Mudança",
-    "Melhor idade",
-    "Baby Room",
-    "Decoração Natalina",
-    "Depósito Residencial"],
+      "Mudança Organizada",
+      "Pré e Pós Mudança",
+      "Melhor idade",
+      "Baby Room",
+      "Decoração Natalina",
+      "Depósito Residencial"],
     foto: "quissack.jpg",
     instagram: "https://www.instagram.com/claudia.quissack/",
     whatsapp: "11970901565"
@@ -137,7 +137,7 @@ const professionalsData = [
     instagram: "https://www.instagram.com/ro_organiza_/",
     whatsapp: "11984050186"
   },
-    {
+  {
     nome: "Luciana Teixeira",
     cidade: "Santo André / SP",
     especialidades: [
@@ -152,28 +152,28 @@ const professionalsData = [
     whatsapp: "11953318246"
   },
   {
-  nome: "Eliane Brejão",
-  cidade: "Santo André / SP",
-  especialidades: [
-    "Organização Residencial",
-    "Atendimento presencial no ABC"
-  ],
-  foto: "brejao.jpg",
-  instagram: "https://www.instagram.com/eli.organiza/",
-  whatsapp: "11999430913"
-},
+    nome: "Eliane Brejão",
+    cidade: "Santo André / SP",
+    especialidades: [
+      "Organização Residencial",
+      "Atendimento presencial no ABC"
+    ],
+    foto: "brejao.jpg",
+    instagram: "https://www.instagram.com/eli.organiza/",
+    whatsapp: "11999430913"
+  },
   {
-  nome: "Angelica Martins",
-  cidade: "São Paulo / SP",
-  especialidades: [
-    "Organização Residencial",
-    "Designer Online",
-    "Método Hygge",
-  ],
-  foto: "angelica.jpg",
-  instagram: "https://www.instagram.com/angelicam.iorganize/",
-  whatsapp: "13991799139"
-}
+    nome: "Angelica Martins",
+    cidade: "São Paulo / SP",
+    especialidades: [
+      "Organização Residencial",
+      "Designer Online",
+      "Método Hygge",
+    ],
+    foto: "angelica.jpg",
+    instagram: "https://www.instagram.com/angelicam.iorganize/",
+    whatsapp: "13991799139"
+  }
 
   // Adicione mais profissionais aqui
 ];
