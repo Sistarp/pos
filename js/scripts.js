@@ -173,6 +173,19 @@ const professionalsData = [
     foto: "angelica.jpg",
     instagram: "https://www.instagram.com/angelicam.iorganize/",
     whatsapp: "13991799139"
+  },
+  {
+    nome: "Cris Baptista",
+    cidade: "São Paulo / SP",
+    especialidades: [
+      "Organização Residencial",
+      "Organização Corporativa",
+      "Organização Pós Ruptura",
+      "Organização Baby",
+    ],
+    foto: "crisbaptista.jpeg",
+    instagram: "https://www.instagram.com/crisbaptista_organizer/",
+    whatsapp: "11971407861"
   }
 
   // Adicione mais profissionais aqui
