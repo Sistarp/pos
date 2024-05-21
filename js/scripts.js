@@ -189,7 +189,7 @@ const professionalsData = [
   },
   {
     nome: "Marcela Lima",
-    cidade: "Mogi das Cruzes / SP",
+    cidade: "São Paulo / SP",
     especialidades: [
       "Organização Residencial",
       "Organização Pós Mudança",
