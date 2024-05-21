@@ -186,6 +186,19 @@ const professionalsData = [
     foto: "crisbaptista.jpeg",
     instagram: "https://www.instagram.com/crisbaptista_organizer/",
     whatsapp: "11971407861"
+  },
+  {
+    nome: "Marcela Lima",
+    cidade: "Mogi das Cruzes / SP",
+    especialidades: [
+      "Organização Residencial",
+      "Organização Pós Mudança",
+      "Limpeza Moderna",
+      "Lavanderia Moderna",
+    ],
+    foto: "marcelalima.jpg",
+    instagram: "https://www.instagram.com/marcelalima.organizer/",
+    whatsapp: "11943082100"
   }
 
   // Adicione mais profissionais aqui
