@@ -205,6 +205,24 @@ const professionalsData = [
     foto: "marcelalima.jpg",
     instagram: "https://www.instagram.com/marcelalima.organizer/",
     whatsapp: "11943082100"
+  },
+  {
+    nome: "Tina Neves",
+    cidade: "Santo André / SP",
+    especialidades: [
+      "Organização Residencial",
+      "Organização Empresarial",
+      "Organização de Pré e Pós Mudança",
+      "Baby Organizer",
+      "Organização para Recém-Casados",
+      "Marcenaria Inteligente",
+      "Decoração Natalina",
+      "Consultoria e Treinamento",
+      "Atendimento Presencial em ABC, São Paulo, Litoral e Interior",
+    ],
+    foto: "tinaneves.jpg",
+    instagram: "https://www.instagram.com/tinaneves.organizer/",
+    whatsapp: "11972154400"
   }
 
   // Adicione mais profissionais aqui
