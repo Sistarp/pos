@@ -63,19 +63,6 @@ const professionalsData = [
     whatsapp: "11971239689"
   },
   {
-    nome: "Cristina Martins",
-    cidade: "São Caetano do Sul / SP",
-    especialidades: ["Organização Residencial",
-      "Organização Empresarial",
-      "Mudança Organizada",
-      "Organização inclusiva (Acumuladores, Autistas, Down, TDAH)",
-      "Organização de Fotos (Impressas e Digitais)",
-      "Organização Pós Luto"],
-    foto: "crismartins.jpg",
-    instagram: "https://www.instagram.com/crismartins.organizer/",
-    whatsapp: "11981218563"
-  },
-  {
     nome: "Fernanda Bertacini",
     cidade: "São Paulo / SP",
     especialidades: [
@@ -87,35 +74,6 @@ const professionalsData = [
     whatsapp: "11985367257"
   },
   {
-    nome: "Marillac David",
-    cidade: "São Paulo / SP",
-    especialidades: [
-      "Organização Residencial",
-      "Organização Baby",
-      "Pré e Pós Mudança",
-      "Organização de Escritório",
-      "Consultoria Online e Presencial",
-      "Atendimento em São Paulo e sul de Minas"
-    ],
-    foto: "marillac.jpeg",
-    instagram: "https://www.instagram.com/marillacorganize/",
-    whatsapp: "11985760032"
-  },
-  {
-    nome: "Claudia Quissack",
-    cidade: "Santo André / SP",
-    especialidades: ["Organização Residencial",
-      "Mudança Organizada",
-      "Pré e Pós Mudança",
-      "Melhor idade",
-      "Baby Room",
-      "Decoração Natalina",
-      "Depósito Residencial"],
-    foto: "quissack.jpg",
-    instagram: "https://www.instagram.com/claudia.quissack/",
-    whatsapp: "11970901565"
-  },
-  {
     nome: "Valéria Cristina de Freitas",
     cidade: "Santo André / SP",
     especialidades: [
@@ -125,17 +83,6 @@ const professionalsData = [
     foto: "valeriafreitas.jpg",
     instagram: "https://www.instagram.com/espaco_pratico/",
     whatsapp: "11941259343"
-  },
-  {
-    nome: "Rosangela Kubota",
-    cidade: "São Caetano do Sul / SP",
-    especialidades: [
-      "Organização Residencial",
-      "Atendimento presencial em São Paulo e Região"
-    ],
-    foto: "rokubota.jpg",
-    instagram: "https://www.instagram.com/ro_organiza_/",
-    whatsapp: "11984050186"
   },
   {
     nome: "Luciana Teixeira",
